@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+System.out.println("\"!@#$%^&*()\"");
+
+}
+}
+// " 는 \" 로 출력되나 !@#$%^&*() 은 변환하지 않아도 그냥 출력이 됨 
