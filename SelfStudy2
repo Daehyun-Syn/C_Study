@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+// 스캐너 s 는 새로운 스캐너이고 시스템에 넣을것이다 
+		
+		String a = s.next();
+    	// a는 문자열이고 스캐너로 눌러주는 함수로 받을거야 
+		String[] arr = a.split("\\.");
+    //문자열을 배열할껀데 a(스캐너로 눌러주는함수)를 .을 기준하여 정렬
+		int A = Integer.valueOf(arr[0]);
+    			//0의자리 배열을 정수 a로 받겠다 
+		int B = Integer.valueOf(arr[1]);
+		int C = Integer.valueOf(arr[2]);
+
+System.out.printf("%04d.%02d.%02d", A, B, C);
+
+	}
+
+}
