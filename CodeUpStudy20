@@ -1,0 +1,36 @@
+package selfStudy;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         
+         String s = sc.nextLine();
+         String[] arr = s.split("-");
+         
+         String A = arr[0];
+	
+	    String B = arr[1];
+		
+         
+         
+         
+        System.out.print(A+B);
+        
+        // split을 사용하면 - 을 기준으로 문자열을 분리시킨다 
+        // 따라서 010810-1000111 을 입력하게되면 앞에 010810 과 1000111이 분리
+        // 앞자리에 스트링 a 뒷자리에 스트링 b가 들어가게 해놨으므로
+        // -으로 분리한 두가지 숫자가 a 와 b의 입력되어 출력됨
+         
+         
+	
+		
+		
+		
+	
+	
+	
+	}
+}
