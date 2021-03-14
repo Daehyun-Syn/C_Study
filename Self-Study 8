@@ -1,0 +1,18 @@
+public class FloatDoubleEx {
+
+	public static void main(String[] args) {
+
+		//float(4바이트),double(8바이트): 실수 자료형
+		// 기본적으로 double 처리함
+		//float 형으로 사용하는 경우 숫자에 f나F 명시함 EX:double dnum = 3.14; float fnum = 3.14F
+		 
+		double dnum = 3.14;
+		float fnum = 3.14F;
+		
+		//boolean - 논리형 /논리값 true (참) false (거짓)
+		//자료형이  b필요한 이유: 변수를 선언 할 때는 변수가 사용할 메모리 크기와 타입을 구분하기위해 자료형을 사용
+		//지역 변수 자료형 추론(local variable type inference): 변수에 대입되는 값을 보고 컴파일러가 추론
+		
+	}
+
+}
