@@ -1,0 +1,33 @@
+public class VariableEx {
+
+	public static void main(String[] args) {
+
+		int num;
+		num = 10;
+		
+		System.out.println(num);
+		
+		int level = 20;
+		System.out.println(level);
+		
+		int ns; //X
+		int numberOfStudent; //O
+		//변수 이름을 명명할때 의미있게(가독성있게) 
+	//논리형(true false)
+		//byte: 1바이트 단위의 자료형
+		//short: 2바이트 단위의 자료형
+		//int: 4바이트 단위의 자료형 ex:자바에서 사용하는 정수에대한 기본 자료형
+        //long: 8바이트 단위의 자료형
+		//char: 문자 자료형  
+		//인코딩:각문자에 따른 특정한 숫자값(코드값)을 부여 EX:A->65 
+		//디코딩:숫자 값을 원래의 문자로 변환 EX:65->A
+		//문자세트 : 문자를 위한 코드값(숫자 값) 들을 정해 놓은 세트
+		//아스키(ASCII): 1바이트로 영문자,숫자,특수문자 등을 표현함
+		//유니코드(Unicode):한글과 같은 복잡한 언어를 표현하기위한 표준 인코딩 UTF-8 UTF16이 대표적
+		//자바는 유니코드 UTF-16 인코딩을 사용함
+		
+		
+	}
+
+}
+// ctrl+b 지우기
