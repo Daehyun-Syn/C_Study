@@ -1,0 +1,27 @@
+public class FinalTest {
+
+	public static void main(String[] args) {
+
+		//Final(상수) : 변하지 않는 값 ex:PI(3.14)
+		
+		final int MAX_NUM = 100;
+		final double PI = 3.14;
+		
+				
+		
+		final int STUDENT_NUM = 30;
+		int num = 0;
+		if( num == STUDENT_NUM ); {}
+
+	//상수를 선언해놓고 다른값을 입력하면 틀리게 된다
+		//상수를 선언하지 않고 그냥 일반 값을 입력하게 되면
+		//나중에 추가할것이 생기면 일일히 일반 값을 수정해야한다
+		//상수를 선언해 놓으면 상수값만 수정하면 된다 
+		
+				
+		
+		
+		
+	}
+
+}
