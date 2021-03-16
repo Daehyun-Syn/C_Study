@@ -1,0 +1,42 @@
+package assignment;
+
+public class OperationEX2 {
+
+	public static void main(String[] args) {
+		
+		//증가 감소 연산자 
+		//++ :항의 값에 1을 더합니다
+		//-- :항의 값에서 1을 뺍니다
+		//증가,감소 연산자가 앞에 오면 먼저 계산후 뒤에값 대입
+		//증가,감소 연산자가 뒤에오면 앞에값을 계산후 뒤에 대입
+		
+		int num = 10;
+
+		System.out.println(--num);
+
+
+		System.out.println(num);
+
+		System.out.println(3<5);
+		
+		//관계연산자 : 연산의 결과가 true,false로 반환됨
+		
+		int num1 = 10;
+		int num2 = 5;
+		boolean flag = (num1 > num2);
+		System.out.println(flag);
+		
+		
+		//
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
