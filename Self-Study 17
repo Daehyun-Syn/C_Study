@@ -1,0 +1,25 @@
+package assignment;
+
+public class OperationEX5 {
+
+	public static void main(String[] args) {
+
+		int num1 = 5;
+		int num2 = 10;
+		
+		int result = num1 & num2;
+		System.out.println(result);
+		
+		int num3 = 5;
+		System.out.println(num3 << 1);//이때 num값은 바뀌지않음
+		
+		
+	}
+
+}
+ //or 연산자 ? | 
+//비트 연산자  
+//<<:왼쪽  비트를 오른쪽에서 왼쪽으로 이동하는연산자
+//>>:오른쪽: 비트를 왼쪽에서 오른쪽으로 이동하는 연산자
+// 이동하는 비트마다 2의n승 ex:정수 15를 왼쪽으로 1비트 옮기게되면 2의1승이므로 15x2 값과 같음
+// 반대로 정수 15를 오른쪽으로(>>) 1비트 옮기게되면 2의 1승이므로 15/2 의값과 같음
