@@ -1,0 +1,22 @@
+package assignment;
+
+public class OperationEX4 {
+
+	public static void main(String[] args) {
+//복합 대입 연산자 : 대입 연산자와 다른 연산자를 함께 사용
+		int num1 = 10;
+		System.out.println(num1 += 1);
+		
+		System.out.println(num1 %= 10);
+		num1 -= 1;
+		System.out.println(num1);
+		
+		/*조건 연산자 : 조건 식의 결과가 true 인경우와 false인 경우에 따라 
+		 다른 식이나 결과가 수행됨*/
+		
+		int num = (5 > 3 )? 10:20;
+		System.out.println(num);
+		// 비트연산자는 정수에만 사용할수 있다
+	}
+
+}
