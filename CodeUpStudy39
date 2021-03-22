@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+String[] a = sc.nextLine().split(" ");
+
+long b = Long.parseLong(a[0]);
+
+long d = Long.parseLong(a[1]);
+
+System.out.print(d+b);
+
+
+
+
+
+}
+}
