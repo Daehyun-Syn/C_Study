@@ -1,0 +1,21 @@
+package classpart;
+
+public class ReferenceType {
+
+	public static void main(String[] args) {
+// 변수의 자료형 
+		// 기본 자료형 :int, long, float, double, 등  
+		// 참조 자료형(클래스로 제공되는 자료형) : String, Date, Student
+// 참조 자료형의 예 : 학생의 속성 중 수업에 대한 부분
+		// 수업에 대한 각 속성을 학생 클래스에 정의 하지 않고
+		// 수업이라는 클래스로 분리해서 사용
+		// 이때 과목은 참조 자료형으로 선언
+		
+	
+	
+		
+		
+		
+	}
+
+}
