@@ -1,0 +1,32 @@
+package Ifexample;
+
+public class Ifexample1 {
+
+	public static void main(String[] args) {
+
+int age = 10;
+
+if(age >=8 ) {
+	System.out.println("�б��� �ٴմϴ�.");
+	}
+else {
+	System.out.println("�б��� �ٴ��� �ʽ��ϴ�.");
+	
+}
+		}
+}
+//���ǹ�  :�־��� ���ǿ� ���� ���๮�� ����ǵ��� ���α׷���
+/*  if�� : 
+if(���ǽ� ) {
+���๮;
+}     */
+/*  if-else�� : 
+if(���ǽ� ) {
+���๮;
+} 
+else { 
+���๮2; 
+}
+*/
+// { }:�� 
+// ���� ���� �ӿ��� �߰�ȣ�� �ݵ�� ����ؾ��Ѵ�.
