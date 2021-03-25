@@ -1,0 +1,28 @@
+package Ifexample;
+
+public class SwitchCaseEx {
+
+	public static void main(String[] args) {
+int rank = 5;
+char medalColor;
+
+switch(rank) {
+case 1 : medalColor = 'G';
+break;
+
+case 2 : medalColor = 'S';
+break;
+
+case 3 : medalColor = 'B';
+break;
+
+default : medalColor = 'A';
+
+}
+
+System.out.println(rank + "�� �޴��� ������ " + medalColor + "�Դϴ�.");
+
+	}
+
+} //switch case ������ break�� �� ������Ѵ�
+ //�ڹ� 7 ���ĺ��� switch case ������ ���ڿ� ��� ����
