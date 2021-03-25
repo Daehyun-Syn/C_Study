@@ -1,0 +1,50 @@
+
+public class Student {
+
+int studentID;
+String studentName;
+int grade;
+String address;
+
+public void showStudentInfor() {
+System.out.println(studentName + "," + address);
+}
+	
+	public String getStudentName() {
+		
+		return studentName;
+		
+	}
+	public void setStudentName(String name) {
+		studentName = name;
+	}
+	
+	public static void main(String[] args) {
+		
+		Student studentSyn = new Student();
+		studentSyn.studentName = "Syndaehyun";
+		studentSyn.studentID = 100;
+		studentSyn.address = " jejudo gjwa up ";
+		
+		Student studentSong = new Student();
+		studentSong.studentName = "SongYuRa";
+		studentSong.studentID = 120;
+		studentSong.address = " jejudo jejusi ";
+
+		studentSyn.showStudentInfor();
+		studentSong.showStudentInfor();
+		
+		
+	}
+	
+
+
+
+
+
+
+}
+
+
+
+	
