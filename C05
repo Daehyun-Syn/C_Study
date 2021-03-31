@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+	printf("줄바꿈\n연습");
+	printf("\t탭키\t연습");
+
+
+
+
+
+}
