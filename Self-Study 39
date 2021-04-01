@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class SwithCaseTEST1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int a;
+		System.out.print("1~4중에 선택하세요 : ");
+		a = sc.nextInt();
+
+		switch (a) {
+		case 1:
+			System.out.println(a + " 을 선택했다");
+			break;
+
+		case 2:
+			System.out.println(a + " 을 선택했다");
+			break;
+
+		case 3:
+			System.out.println(a + " 을 선택했다");
+
+		case 4:
+			System.out.println(a + " 을 선택했다");
+			break;
+
+		default:
+			System.out.println("이상한것 택함");
+			break;
+		}
+	}
+
+}
