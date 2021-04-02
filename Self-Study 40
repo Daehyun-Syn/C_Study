@@ -1,0 +1,26 @@
+
+public class Mm {
+
+	public static void main(String[] args) {
+
+		int i = 0;
+		System.out.println(i);
+		System.out.println(i++);
+		System.out.println(i);
+		// 출력은 0 0 1
+		System.out.println(i);
+		System.out.println(++i);
+		System.out.println(i);
+		// 출력은 0 1 1 
+
+		//"++" 연산자가 변수명 뒤에 붙으면 해당 코드가 실행되는 순간에는 i값이 변경되지 않고 해당 코드가 실행된 이후에 i 값이 증가하게 된다
+		//반대로 "++"연산자가 변수명 앞에 붙으면 i값이 먼저 증가된 후에 해당 코드가 실행된다
+		// 연산자에 위치에 따라 코드가 실행 전/후로 나뉘어 값이 변경된다 
+
+				
+				
+				
+
+}
+
+}
