@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int dan = 2;
+
+		while (dan < 10) {
+			
+			int goo = 1;
+			System.out.println(dan +" 단  ");
+			while (goo < 10) {
+				System.out.println(dan + "x" + goo + "=" + dan * goo);
+				goo++;
+
+			}
+			dan++;
+		}
+
+	}
+}
