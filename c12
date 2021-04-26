@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{      
+	float a;
+	int d, b = 5, c = 3;
+
+a = b / (float)c;
+printf("%d / %d = %.1f \n", b, c, a);
+
+d = b % c;
+printf("%d %% %d = %d \n", b, c, d);
+}
