@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+
+	int a;
+	scanf("%d", &a);
+	if (a % 3 == 0)
+	{	
+		printf("참이므로 출력\n");
+	}
+	else 
+	{
+		printf("거짓이므로 출력\n");
+	}
+	printf("여기는 무조건 출력");
+} 
