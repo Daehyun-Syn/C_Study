@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+	int a;
+	scanf("%d", & a);
+
+	if (a > 50) {
+
+		if (a < 100) {
+			printf(" 50보다 크고 100보다 작군요..\n");
+			}
+		else {
+			printf(" 50보다 크고 100보다도 크군요.. \n");
+		     }
+		}
+	else {
+		printf(" 50보다 작군요 .. \n ");
+	     }
+	
+
+
+		}
+			 
+
+
+
