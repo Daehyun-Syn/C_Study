@@ -1,0 +1,28 @@
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+public class MapTEST1 {
+
+	public static void main(String[] args) {
+
+		Map<String, String> pMap = new HashMap<> ();
+		
+		pMap.put("name", "신대현");
+		pMap.put("e-mail", "daehyun2ya@gamil.com");
+		pMap.put("dept", "데이터분석과");
+		
+		
+		System.out.println("------------------------");
+		System.out.println(pMap.get("name"));
+		System.out.println(pMap.get("e-mail"));
+		System.out.println(pMap.get("dept"));
+		System.out.println(pMap.get("오타"));
+		System.out.println("------------------------");
+		
+		
+	
+	}
+
+}
