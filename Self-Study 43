@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+public class MapTEST2 {
+
+	public static void main(String[] args) {
+		//HashMap을 저장하기 위한 List 컬렉션 객체를 메모리에 올려줌
+		List<HashMap <String, String>> rList = new ArrayList<> ();
+		
+		// 선언될 rList 변수에 저장할 HashMap 객체를 메모리에 올림
+		HashMap<String, String> pMap = new HashMap<> ();
+		
+		
+		pMap.put("name", "씬");
+		pMap.put("email", "syn@g");
+		pMap.put("addr", "제주");
+		pMap.put("dept", "데이터분석");
+		
+		//씬의 정보가 저장된 HashMap 객체를 List객체에 저장 
+		rList.add(pMap);
+		
+		// 사용이 끝난 HashMap 변수를 메모리에서 삭제 
+		pMap = null;
+		
+		// 새로운 데이터를 저장하기 위해 기존HashMap 변수를 새롭게 메모리에 올림
+		pMap = new HashMap<> ();
+		
+		pMap.put("name", "Torres");
+		pMap.put("email", "blues@ch");
+		pMap.put("addr", "Spain");
+		pMap.put("dept", "CH & R");
+		
+		//Torres 정보가 저장된 HashMap 객체를 List객체에 저장
+		rList.add(pMap);
+		
+		// 사용이 끝난 HashMap 변수를 메모리에서 삭제 
+		pMap = null;
+		Iterator<HashMap <String, String>> it = rList.iterator();
+		
+		while (it.hasNext()) {
+			HashMap<String, String> rMap = it.next();
+			
+			System.out.println("------------------------");
+			System.out.println("이름 : " + rMap.get("name"));
+			System.out.println("이메일 : " + rMap.get("email"));
+			System.out.println("주소 : " + rMap.get("addr"));
+			System.out.println("소속 : " + rMap.get("dept"));
+			System.out.println("------------------------");
+			
+			// HashMap 변수를 메모리에서 삭제 
+			rMap = null;
+			System.out.println("-------- 이상 -----------");
+		}
+	}
+
+}
