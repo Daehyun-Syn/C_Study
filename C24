@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int dan, goo;
+	int result;
+	for (; ;) {
+		printf("출력할 단을 입력.");
+		scanf("%d", &goo);
+		for (dan = 1; dan < 10; dan++) {
+			
+			printf("%d X %d = %d \n", goo, dan, (goo * dan));
+		}
+
+	}
+
+
+
+}
