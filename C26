@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	int goo, dan;
+
+	for (goo = 2; goo < 10; goo++) {
+		printf("%d 단 \n",goo);
+		for (dan = 1; dan < 10; dan++) {
+
+			printf("%d x %d = %d \n", goo, dan, (goo * dan));
+		}
+		printf("\n");
+	}
+	
+}
