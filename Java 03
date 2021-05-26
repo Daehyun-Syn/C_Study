@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class TEST11111111 {
+
+	public static void main(String[] args) {
+		ArrayList<String> List = new ArrayList<String>();
+// 어레이리스트의 특수한 기능을 사용하려고 선언하지 않는 이상
+// ArrayList 대신 List로 선언할것 
+// ArrayList<String> List = new ArrayList<String>(); :X
+// List<String> List = new ArrayList<String>(); : O
+		List.add("객체지향프로그래밍");
+		List.add("하둡");
+		List.add("MongoDB");
+		int i = 0;
+		while (i < List.size()) {
+			if (i == 0) {
+				System.out.println("<" + List.get(i) + ">");
+			} else {
+				System.out.println(List.get(i));
+			
+			}
+			i++;
+		}
+
+	}
+
+}
