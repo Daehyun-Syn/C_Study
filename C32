@@ -16,6 +16,7 @@ int main() {
 		case 4: printf("#주문하신 커피 준비하겠습니다. \n"); break;
 		default: printf("잘못 주문하셨습니다. \n");
 			break;
+			//
 		}
 	} while (menu != 4);
 }
