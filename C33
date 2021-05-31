@@ -16,5 +16,5 @@ int main() {
 	}
 	return 0;
 	printf("1 부터 100까지의 홀수의 합은 ? %d", hap);
-
+//
 }
