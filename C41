@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+	
+	int aa[10];
+
+	float avrg;
+	int hap = 0;
+	int d;
+
+	printf("과목의 수를 입력하세요 : ");
+	scanf("%d", &d);
+
+	for (int i = 0; i < d; i++) {
+
+		printf("%d 번째 과목의 점수를 입력하세요 : ", i+1);
+		scanf("%d", &aa[i]);
+		printf("%d", aa[i]);
+		printf("\n");
+		hap += aa[i];
+	}
+	
+	printf("총점은 : %d점 : ", hap);
+	avrg = hap / (float)d;
+	printf("평균 점수는 : %0.1f점 ", avrg);
+}
